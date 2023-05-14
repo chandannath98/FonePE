@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "FonePE_doctor",
+    "name": "FonePE doctor",
     "slug": "FonePE_doctor",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/fav.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.chandannath1.FonePE_doctor"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "500d0a14-950e-4aff-a80b-ec63e2937da8"
+      }
     }
   }
 }
